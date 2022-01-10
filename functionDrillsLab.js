@@ -75,6 +75,13 @@ greeting('Jake')
 */
 
 //CODE HERE
+let compareNums = (num1,num2) => {
+  if (num1 >= num2) {
+    return num1
+  } else {
+    return num2
+  }
+}
 
 
 ////////////////// PROBLEM 6 ////////////////////
