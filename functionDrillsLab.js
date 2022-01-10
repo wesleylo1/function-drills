@@ -39,7 +39,11 @@ let jsNinja = () => {
 */
 
 //CODE HERE
+function printName(name) {
+  console.log(name);
+}
 
+printName('Joe')
 
 ////////////////// PROBLEM 4 ////////////////////
 /*
