@@ -93,7 +93,15 @@ let compareNums = (num1,num2) => {
 */
 
 //CODE HERE
+function add(num1,num2) {
+  num1 = +num1
+  num2 = +num2
 
+  return (num1 += num2)
+}
+
+let sum = add(2,35)
+console.log(sum)
 
 ////////////////// PROBLEM 7 ////////////////////
 
