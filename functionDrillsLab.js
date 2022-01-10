@@ -317,7 +317,12 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+let capitalString = string => {
+  let upperString = string.toUpperCase()
+  console.log(upperString);
+}
 
+capitalString(sampleString)
 
 ////////////////// PROBLEM 18 ////////////////////
 /*
