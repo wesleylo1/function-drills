@@ -157,7 +157,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-// declaration
+console.log('declaration');
 // expression
 
 
