@@ -25,6 +25,10 @@ helloWorld()
 */
 
 //CODE HERE
+let jsNinja = () => {
+  return 'I am a Javascript ninja!'
+}
+
 
 
 ////////////////// PROBLEM 3 ////////////////////
