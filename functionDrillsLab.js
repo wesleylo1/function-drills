@@ -357,11 +357,11 @@ function emailCheck(email) {
 
 //CODE HERE
 function frogGold(gold) {
-  return gold / 3
+  let totalFrogs = gold/3
+  return totalFrogs
 }
 
-let totalFrogs = frogGold(5491)
-console.log(totalFrogs)
+console.log(frogGold(5))
 
 ////////////////// PROBLEM 20 ////////////////////
 /*
@@ -371,7 +371,13 @@ console.log(totalFrogs)
 */
 
 //CODE HERE
+function frogGold2(gold) {
+  let amountOfFrogs = gold/3
+  let totalFrogs2 = Math.floor(amountOfFrogs)
+  return totalFrogs2
+}
 
+console.log(frogGold2(5))
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
