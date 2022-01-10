@@ -97,7 +97,7 @@ function add(num1,num2) {
   num1 = +num1
   num2 = +num2
 
-  return (num1 += num2)
+  return (num1 + num2)
 }
 
 let sum = add(2,35)
@@ -171,7 +171,19 @@ console.log('declaration');
 */
 
 //CODE HERE
+function nameCheck(name) {
+  if (name === 'Steven') {
+    return 'What is up Steven?'
+  } if (name === 'Bryan') {
+    return 'Hey Bryan!'
+  } else {
+    return `Cool name, ${name}`
+  }
+}
 
+let nameGreeting = nameCheck('Bryan')
+
+console.log(nameGreeting)
 
 ////////////////// PROBLEM 11 ////////////////////
 /*
